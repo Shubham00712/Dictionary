@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(240, 155, 240);
+}
+
+.main-card{
+    background-color: white;
+    border-radius: 1%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vh;
+    box-shadow: 5px 5px gray;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input{
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid purple;
+    color: purple;
+    font-weight: 600;
+    
+}
+
+.search-btn{
+    background-color: purple;
+    color: white;
+    padding: 10px 5%;
+    border: none;
+    font-weight: 700;
+}
+
+.word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.word h3{
+    margin: 0;
+    font-family: 'Georgia','Serif';
+    font-size: x-large;
+}
+
+.word button{
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.details p{
+    margin: 0;
+    display: inline;
+    color: gray;
+}
+
+.word-example{
+    padding: 4px 2px;
+    border-left: 2px solid gray;
+}
+
+.err{
+    text-align: center;
+}
+
+#error-msg{
+    /* text-align: center; */
+    padding: 10px 0;
+    color: brown;
+    text-shadow: 1px 1px black;
+}
